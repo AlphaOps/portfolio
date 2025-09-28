@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aayush Yadav</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="#home" class="nav__logo-text">Portfolio</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#achievements" class="nav__link">Achievements</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <a href="resume.pdf" download class="btn btn-primary nav__resume">Download Resume</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hi, I'm <span class="home__title-color">Aayush Yadav</span>
+                        </h1>
+                        <h3 class="home__subtitle">
+                            <span class="typing-text" id="typing-text">CSE Student | Aspiring Software Developer</span>
+                        </h3>
+                        <p class="home__description">
+                            A Computer Science Engineering student at SRM KTR with a strong passion for learning new technologies and solving real-world problems through coding. I enjoy exploring AI/ML, web development, and innovative projects.
+                        </p>
+                        
+                        <div class="home__buttons">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home__img">
+                    <div class="home__blob">
+                        <div class="home__blob-img">
+                            <div class="home__avatar">👨‍💻</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About <span class="section__title-color">Me</span></h2>
+            <p class="section__subtitle">Get to know more about my journey, skills, and passion</p>
+            
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <div class="about__data">
+                        <h3 class="about__title">My Story</h3>
+                        <p class="about__description">
+                            I am Aayush Yadav, a Computer Science Engineering student at SRM KTR with a strong passion for learning new technologies and solving real-world problems through coding. My journey began with curiosity about how technology works, and it has evolved into a deep love for AI/ML, web development, and innovative problem-solving.
+                        </p>
+                        <p class="about__description">
+                            I specialize in modern web technologies, AI/ML applications, and have a keen interest in building scalable applications. My goal is to become a skilled software engineer who builds impactful applications and contributes to advancing technology that benefits people's everyday lives.
+                        </p>
+                    </div>
+                    
+                    <div class="about__stats">
+                        <div class="about__stat">
+                            <span class="about__stat-number">9.2</span>
+                            <span class="about__stat-text">CGPA</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">2nd</span>
+                            <span class="about__stat-text">Year</span>
+                        </div>
+                        <div class="about__stat">
+                            <span class="about__stat-number">2028</span>
+                            <span class="about__stat-text">Graduation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about__skills">
+                    <h3 class="about__title">Technical Skills</h3>
+                    <div class="skills__container">
+                        <div class="skills__content">
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="skills__name">Java</span>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="skills__name">JavaScript</span>
+                                    <span class="skills__percentage">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__javascript"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="skills__name">React</span>
+                                    <span class="skills__percentage">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <span class="skills__name">YOLOv8 & OpenCV</span>
+                                    <span class="skills__percentage">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ai"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">My <span class="section__title-color">Projects</span></h2>
+            <p class="section__subtitle">Here are some of my recent projects</p>
+            
+            <div class="projects__container container grid">
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">👥</div>
+                    </div>
+                    <h3 class="projects__title">CacheUs - Real-Time Crowd Monitoring</h3>
+                    <p class="projects__description">AI-powered crowd monitoring and stampede prevention system using YOLOv8, OpenCV, IoT sensors, and Firebase</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">YOLOv8</span>
+                        <span class="tech__tag">OpenCV</span>
+                        <span class="tech__tag">React Native</span>
+                        <span class="tech__tag">Firebase</span>
+                        <span class="tech__tag">Node.js</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">🚦</div>
+                    </div>
+                    <h3 class="projects__title">Smart Traffic Management</h3>
+                    <p class="projects__description">AI-powered traffic monitoring system with dynamic signal control and emergency vehicle detection</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">YOLOv8</span>
+                        <span class="tech__tag">OpenCV</span>
+                        <span class="tech__tag">Python</span>
+                        <span class="tech__tag">CCTV Integration</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">🌤️</div>
+                    </div>
+                    <h3 class="projects__title">Weather App</h3>
+                    <p class="projects__description">React-based weather application with API integration for real-time weather data</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">React</span>
+                        <span class="tech__tag">JavaScript</span>
+                        <span class="tech__tag">Weather API</span>
+                        <span class="tech__tag">CSS</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">📱</div>
+                    </div>
+                    <h3 class="projects__title">App Clones</h3>
+                    <p class="projects__description">Frontend and backend implementations of popular mobile applications</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">React</span>
+                        <span class="tech__tag">JavaScript</span>
+                        <span class="tech__tag">Node.js</span>
+                        <span class="tech__tag">Firebase</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">🧵</div>
+                    </div>
+                    <h3 class="projects__title">Multi-threaded Applications</h3>
+                    <p class="projects__description">Java applications implementing threads, semaphores, and concurrent programming concepts</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">Java</span>
+                        <span class="tech__tag">Threading</span>
+                        <span class="tech__tag">Semaphores</span>
+                        <span class="tech__tag">C</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projects__card">
+                    <div class="projects__img">
+                        <div class="projects__icon">👗</div>
+                    </div>
+                    <h3 class="projects__title">Empress London</h3>
+                    <p class="projects__description">Fashion and creative design project showcasing web development and design skills</p>
+                    <div class="projects__tech">
+                        <span class="tech__tag">Web Design</span>
+                        <span class="tech__tag">Creative Design</span>
+                        <span class="tech__tag">Frontend</span>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="#" class="btn btn-primary">Live Demo</a>
+                        <a href="#" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <h2 class="section__title"><span class="section__title-color">Achievements</span> & Recognition</h2>
+            <p class="section__subtitle">My professional achievements and certifications</p>
+            
+            <div class="achievements__container container grid">
+                <div class="achievements__card">
+                    <div class="achievements__icon">🏆</div>
+                    <h3 class="achievements__title">Smart India Hackathon 2025</h3>
+                    <p class="achievements__description">Participated with AI-based solutions showcasing innovative problem-solving skills</p>
+                    <span class="achievements__date">2025</span>
+                </div>
+                
+                <div class="achievements__card">
+                    <div class="achievements__icon">🚀</div>
+                    <h3 class="achievements__title">ITS Club Member</h3>
+                    <p class="achievements__description">Active member of Innovation & Tech Startup club at SRM KTR</p>
+                    <span class="achievements__date">2024-2028</span>
+                </div>
+                
+                <div class="achievements__card">
+                    <div class="achievements__icon">🎓</div>
+                    <h3 class="achievements__title">Academic Excellence</h3>
+                    <p class="achievements__description">Maintaining 9.2 CGPA in B.Tech Computer Science Engineering</p>
+                    <span class="achievements__date">2024-2028</span>
+                </div>
+                
+                <div class="achievements__card">
+                    <div class="achievements__icon">💻</div>
+                    <h3 class="achievements__title">Full-Stack Development</h3>
+                    <p class="achievements__description">Completed projects demonstrating full-stack development and AI/ML skills</p>
+                    <span class="achievements__date">2024-2025</span>
+                </div>
+                
+                <div class="achievements__card">
+                    <div class="achievements__icon">🤖</div>
+                    <h3 class="achievements__title">AI/ML Expertise</h3>
+                    <p class="achievements__description">Developed advanced AI applications using YOLOv8 and OpenCV for real-world problems</p>
+                    <span class="achievements__date">2024-2025</span>
+                </div>
+                
+                <div class="achievements__card">
+                    <div class="achievements__icon">👗</div>
+                    <h3 class="achievements__title">Creative Design</h3>
+                    <p class="achievements__description">Empress London project involvement showcasing fashion and creative design skills</p>
+                    <span class="achievements__date">2024</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Get In <span class="section__title-color">Touch</span></h2>
+            <p class="section__subtitle">Let's discuss how we can work together!</p>
+            
+            <div class="contact__container container grid">
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <i class="fas fa-envelope contact__icon"></i>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">aayush2336@gmail.com</span>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class="fas fa-university contact__icon"></i>
+                        <h3 class="contact__title">College</h3>
+                        <span class="contact__subtitle">SRM Institute of Science & Technology, KTR</span>
+                    </div>
+                    
+                    <div class="contact__card">
+                        <i class="fas fa-map-marker-alt contact__icon"></i>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Pune, India</span>
+                    </div>
+                </div>
+                
+                <form class="contact__form" id="contact-form">
+                    <div class="contact__form-group">
+                        <input type="text" class="contact__form-input" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="contact__form-group">
+                        <input type="email" class="contact__form-input" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="contact__form-group">
+                        <input type="text" class="contact__form-input" placeholder="Subject" required>
+                    </div>
+                    
+                    <div class="contact__form-group">
+                        <textarea class="contact__form-input contact__form-textarea" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary contact__form-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <h3 class="footer__title">Aayush Yadav</h3>
+                    <p class="footer__description">CSE Student | Aspiring Software Developer</p>
+                </div>
+                
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer__social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer__copy">
+                <p>&copy; 2024 Aayush Yadav. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
