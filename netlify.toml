@@ -1,0 +1,15 @@
+[build]
+  # No build command needed for static HTML/CSS/JS
+  command = ""
+  # Publish the root directory since our main files are in the root
+  publish = "."
+  
+[build.environment]
+  # No Node.js version needed for static site
+  NODE_VERSION = ""
+
+# Redirect rules for SPA-like behavior (optional)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
